@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ACSS Centurion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drink">DRINK!!</string>
+    <string name="timeLeft">Time Left:</string>
+    <string name="start">Submit</string>
+    <string name="stop">Stop</string>
+    <string name="testSound">Test Buzzer</string>
+    <string name="title_activity_time">ACSS Centurion</string>
+    <string name="shots">Shots Remaining: </string>
+    <string name="shotsHad">Shots Drank: </string>
+</resources>
