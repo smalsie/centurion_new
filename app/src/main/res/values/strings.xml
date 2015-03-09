@@ -12,4 +12,6 @@
     <string name="title_activity_time">ACSS Centurion</string>
     <string name="shots">Shots Remaining: </string>
     <string name="shotsHad">Shots Drank: </string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_add_name">AddName</string>
 </resources>

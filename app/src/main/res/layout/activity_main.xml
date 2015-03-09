@@ -17,34 +17,12 @@
         android:src="@drawable/acss_logo" />
 
     <Button
-        android:id="@+id/bottomButton"
+        android:id="@+id/buzzerButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="@string/testSound" />
-
-    <TextView
-        android:id="@+id/shots"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_below="@+id/shotsHad"
-        android:layout_marginTop="10dp"
-        android:text="@string/shots"
-        android:textSize="32dp"
-        android:visibility="gone" />
-
-    <TextView
-        android:id="@+id/shotsHad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/shots"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginTop="10dp"
-        android:text="@string/shotsHad"
-        android:textSize="32dp"
-        android:visibility="gone" />
 
     <TextView
         android:id="@+id/timeRunFor"
@@ -70,22 +48,11 @@
     </EditText>
 
     <Button
-        android:id="@+id/startButton"
+        android:id="@+id/submitButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/bottomButton"
-        android:layout_alignLeft="@+id/bottomButton"
-        android:text="@string/start" />
-
-    <TextView
-        android:id="@+id/textTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/startButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:text="99:00"
-        android:textSize="90dp"
-        android:visibility="gone" />
+        android:layout_above="@+id/buzzerButton"
+        android:layout_alignLeft="@+id/buzzerButton"
+        android:text="@string/submit" />
 
 </RelativeLayout>
